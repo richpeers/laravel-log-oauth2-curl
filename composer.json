@@ -1,0 +1,52 @@
+{
+  "name": "richpeers/laravel-log-oauth2-curl",
+  "description": "Queue Laravel Logs send via curl and auth via OAuth2 Client Credentials Grant Token",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "Laravel",
+    "logs",
+    "curl",
+    "OAuth2",
+    "Passport"
+  ],
+  "homepage": "https://github.com/richpeers/laravel-log-oauth2-curl",
+  "authors": [
+    {
+      "name": "Rich Peers",
+      "email": "richpeers1@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "laravel/framework": "~5.6.0|~5.7.0",
+    "monolog/monolog": "~1.12",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RichPeers\\LaravelLogOAuth2Curl\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RichPeers\\LaravelLogOAuth2Curl\\Tests\\": "tests/"
+    },
+    "files": [
+      "/Illuminate/Foundation/helpers.php",
+      "/Illuminate/Support/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RichPeers\\LaravelLogOAuth2Curl\\LaravelLogOAuth2CurlProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
