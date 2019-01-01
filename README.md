@@ -5,18 +5,16 @@
 [![Latest Unstable Version](https://poser.pugx.org/richpeers/laravel-log-oauth2-curl/v/unstable)](https://packagist.org/packages/richpeers/laravel-log-oauth2-curl)
 [![License](https://poser.pugx.org/richpeers/laravel-log-oauth2-curl/license)](https://packagist.org/packages/richpeers/laravel-log-oauth2-curl)
 
-Laravel **5.6** || **5.7**
-
-Custom Laravel Log driver.
+Custom Log driver for Laravel **5.6** || **5.7**
 
 Queued and posted via cURL, authorised with (cached) Client Credentials Grant Token.
 
-This package is intended as a client to a server, for recording logs. Useful where you have multiple Laravel projects and might have one or more instances. For example develop, test or staging.
+This package is intended as a client to a server, for recording logs. Useful where you have multiple projects and might have one or more instances. For example develop, test or staging.
 
 ## Server requirement
 
 Two endpoints are required at your log server. These are defaults and can be changed in config.
-- `/oauth/token`  [Laravel Passport](https://laravel.com/docs/5.7/passport)'s default route for granting token response to **client_id** and **client_secret**.
+- `/oauth/token`  [Passport](https://laravel.com/docs/5.7/passport)'s default route for granting token response to **client_id** and **client_secret**.
 - `/api/logger`&nbsp; POST the logs.
 
 ## Installation
