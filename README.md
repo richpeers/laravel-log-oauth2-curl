@@ -5,7 +5,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/richpeers/laravel-log-oauth2-curl/v/unstable)](https://packagist.org/packages/richpeers/laravel-log-oauth2-curl)
 [![License](https://poser.pugx.org/richpeers/laravel-log-oauth2-curl/license)](https://packagist.org/packages/richpeers/laravel-log-oauth2-curl)
 
-Requires Laravel **5.6** || **5.7**
+Laravel **5.6** || **5.7**
 
 Custom Laravel Log driver. Queued, then posted via cURL, authorised with (cached) Client Credentials Grant Token.
 
