@@ -7,7 +7,9 @@
 
 Laravel **5.6** || **5.7**
 
-Custom Laravel Log driver. Queued, then posted via cURL, authorised with (cached) Client Credentials Grant Token.
+Custom Laravel Log driver.
+
+Queued and posted via cURL, authorised with (cached) Client Credentials Grant Token.
 
 This package is intended as a client to a server, for recording logs. Useful where you have multiple Laravel projects and might have one or more instances. For example develop, test or staging.
 
